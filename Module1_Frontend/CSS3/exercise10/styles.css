@@ -1,0 +1,54 @@
+/* Base styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+}
+
+.navbar {
+    background-color: #007BFF;
+    padding: 10px;
+    text-align: center;
+}
+
+.navbar a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.content {
+    max-width: 800px;
+    margin: 20px auto;
+    text-align: center;
+}
+
+.content img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Media query for screens smaller than 768px */
+@media screen and (max-width: 768px) {
+    .navbar {
+        text-align: left;
+        padding: 10px 20px;
+    }
+
+    .navbar a {
+        display: block;
+        margin: 10px 0;
+        font-size: 16px;
+    }
+
+    .content {
+        margin: 10px;
+        font-size: 14px;
+    }
+
+    .content img {
+        width: 100vw; /* Full viewport width */
+        height: auto;
+    }
+}
