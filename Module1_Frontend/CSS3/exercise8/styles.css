@@ -1,0 +1,31 @@
+/* Box Model & Layout Control */
+
+/* Reset margins and paddings */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Style the event card */
+.eventCard {
+    border: 2px solid #007BFF;
+    padding: 20px;
+    margin: 20px auto;
+    width: 300px;
+    box-shadow: 3px 3px 5px rgba(0,0,0,0.1);
+}
+
+/* Highlight input field with outline */
+.highlight:focus {
+    outline: 3px solid orange;
+}
+
+/* Example for visibility vs display */
+.eventCard.hidden {
+    visibility: hidden; /* element hidden but still takes space */
+}
+
+.eventCard.none {
+    display: none; /* element removed from layout */
+}
