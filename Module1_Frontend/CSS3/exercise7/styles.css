@@ -1,0 +1,33 @@
+/* Table styles */
+table {
+    width: 80%;
+    margin: 20px auto;
+    border-collapse: collapse;
+    text-align: center;
+    font-family: Arial, sans-serif;
+}
+
+/* Table header */
+th {
+    background-color: #007BFF;
+    color: white;
+    padding: 10px;
+    border: 1px solid #ddd;
+}
+
+/* Table data cells */
+td {
+    padding: 10px;
+    border: 1px solid #ddd;
+}
+
+/* Zebra striping for rows */
+tbody tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+/* Hover effect on rows */
+tbody tr:hover {
+    background-color: #d6e4ff;
+    cursor: pointer;
+}
