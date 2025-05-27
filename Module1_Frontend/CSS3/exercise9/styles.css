@@ -1,0 +1,14 @@
+/* Multiple Columns in Text */
+
+/* Style for news article section */
+.news-article {
+    column-count: 2;
+    column-gap: 30px;
+    column-rule: 1px solid gray;
+    padding: 10px;
+    max-width: 700px;
+    margin: 20px auto;
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+}
