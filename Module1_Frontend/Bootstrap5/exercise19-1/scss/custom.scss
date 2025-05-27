@@ -1,0 +1,11 @@
+// Import Bootstrap functions, variables, and mixins first
+@import "bootstrap/scss/functions";
+@import "bootstrap/scss/variables";
+@import "bootstrap/scss/mixins";
+@import "bootstrap/scss/bootstrap";
+
+// Customize Bootstrap variables here before importing Bootstrap
+$primary: #ff5733;   // Change primary color as an example
+
+// Import the rest of Bootstrap
+@import "node_modules/bootstrap/scss/bootstrap";
