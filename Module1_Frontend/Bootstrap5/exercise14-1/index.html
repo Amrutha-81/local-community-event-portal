@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Bootstrap 5 Exercise 14.1 - Display Utilities</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" />
+</head>
+<body>
+
+<div class="container text-center py-4">
+  <h2>Responsive Visibility</h2>
+  <p class="lead">Resize the browser to see visibility changes based on screen size.</p>
+</div>
+
+<!-- Section visible only on medium (md) and up -->
+<div class="bg-warning text-dark text-center p-3 d-none d-md-block d-lg-none">
+  <strong>This is visible on Medium screens only (≥768px and &lt;992px).</strong>
+</div>
+
+<!-- Section visible only on large (lg) and up -->
+<div class="bg-success text-white text-center p-3 d-none d-lg-flex justify-content-center">
+  <strong>This is visible on Large screens and above (≥992px).</strong>
+</div>
+
+<!-- Section hidden on all screens below md -->
+<div class="bg-info text-white text-center p-3 d-none d-md-block">
+  <strong>This is hidden on Mobile but visible from Medium upwards.</strong>
+</div>
+
+<!-- Always visible section -->
+<div class="bg-secondary text-white text-center p-3 mt-3">
+  <strong>This section is always visible.</strong>
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
