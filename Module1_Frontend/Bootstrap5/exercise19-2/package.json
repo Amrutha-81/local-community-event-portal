@@ -1,0 +1,16 @@
+{
+  "name": "exercise19-2",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "build-css": "sass scss:css"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "bootstrap": "^5.3.6",
+    "sass": "^1.89.0"
+  }
+}
